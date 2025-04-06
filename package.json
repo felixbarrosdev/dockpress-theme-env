@@ -1,0 +1,35 @@
+{
+  "name": "dockpress-theme-env",
+  "version": "1.0.1",
+  "description": "Entorno Docker genérico para desarrollar themes personalizados de WordPress con herramientas modernas como Composer, TailwindCSS y WP-CLI.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "prepare": "husky install",
+    "commit": "cz",
+    "release": "standard-version"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/felixbarrosdev/dockpress-theme-env.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/felixbarrosdev/dockpress-theme-env/issues"
+  },
+  "homepage": "https://github.com/felixbarrosdev/dockpress-theme-env#readme",
+  "devDependencies": {
+    "@commitlint/cli": "^19.8.0",
+    "@commitlint/config-conventional": "^19.8.0",
+    "commitizen": "^4.3.1",
+    "husky": "^9.1.7",
+    "standard-version": "^9.5.0"
+  },
+  "config": {
+    "commitizen": {
+      "path": "cz-conventional-changelog"
+    }
+  }
+}

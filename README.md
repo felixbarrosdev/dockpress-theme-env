@@ -1,5 +1,7 @@
 # DockPress Theme Env
 
+![GitHub tag (latest by date)](https://img.shields.io/github/v/tag/felixbarrosdev/dockpress-theme-env?label=version)
+
 Entorno Docker genérico para desarrollar themes personalizados de WordPress con herramientas modernas como Composer, TailwindCSS y WP-CLI.
 
 ## 🚀 Requisitos
